@@ -21,7 +21,7 @@ public class Stock {
         ArrayList<ItemStock> nuevaLista = new ArrayList<>();
         for(int i=0; i<items.size(); i++ ){
         
-            if(items.get(i).cantidad<cantidadMaxima){
+            if(items.get(i).getCantidad()<cantidadMaxima){
             
                 nuevaLista.add(items.get(i));
             }
