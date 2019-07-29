@@ -5,7 +5,7 @@ import java.util.ArrayList;
 
 
 public class Stock {
-    ArrayList<ItemStock>items;
+    private ArrayList<ItemStock>items;
     
     ArrayList<ItemStock> getItems(){
     return this.items;

@@ -5,9 +5,9 @@ import java.util.Date;
 
 
 public class ItemStock {
-    Computadora computadora;
-    int cantidad;
-    Date ultimaFechaModificacion;
+    private Computadora computadora;
+    private int cantidad;
+    private Date ultimaFechaModificacion;
 
 
     ItemStock(Computadora c,int cantidad){

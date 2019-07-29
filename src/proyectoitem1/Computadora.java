@@ -3,8 +3,8 @@ package proyectoitem1;
 
 
 public class Computadora {
-    String nombre;
-    int precio;
+    private String nombre;
+    private int precio;
     
     String getNombre(){
     return this.nombre;
